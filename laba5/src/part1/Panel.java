@@ -67,39 +67,5 @@ public class Panel extends JFrame {
             }
         }
     }
-
-
-//    public class ButtonActionListener implements MouseListener {
-//        //  Если пользователь нажал и отпустил одну из кнопок, вызывается метод mouseClicked.
-//        public void mouseClicked(MouseEvent e) {
-//            list = (JList) e.getSource();
-//            Object text = list.getSelectedValue();
-//            text1.setText((String) text);
-//        }
-//
-//        // mouseEntered - данный метод будет вызываться системой у слушателя каждый раз, когда курсор мыши будет оказываться над компонентом.
-//        public void mouseEntered(MouseEvent e) {
-//            list = (JList) e.getSource();
-//            text1.setText("метод mouseEntered()");
-//        }
-//
-//        // mouseExited – данный метод срабатывает, когда убираем курсор мыши с компонента.
-//        public void mouseExited(MouseEvent e) {
-//            list = (JList) e.getSource();
-//            text1.setText("метод mouseExited()");
-//        }
-//
-//        // Навели на компонент, зажали кнопку — система вызвала mousePressed.
-//        public void mousePressed(MouseEvent e) {
-//            list = (JList) e.getSource();
-//            text1.setText("метод mousePressed()");
-//        }
-//
-//        // Отпускаем кнопку — система вызвала mouseReleased.
-//        public void mouseReleased(MouseEvent e) {
-//            list = (JList) e.getSource();
-//            text1.setText("метод mouseReleased()");
-//        }
-//    }
 }
 
